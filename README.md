@@ -1,6 +1,7 @@
 # Digital-clock-application
 
 Using HTML, CSS and JavaScript skills by building a basic digital alarm Web Application for scheduling my day-to-day routines.  
+Alarm can be set with buzzer sound, for notifying you on your configured schedule, as Wake Up Time, Lunch Time and so on. 
 
 **Application Live at**: https://routine-clock.herokuapp.com/
 
