@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="clock.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Manrope:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Manrope:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow:wght@100&family=Manrope:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow:wght@100&family=Boogaloo&family=Manrope:wght@300&display=swap" rel="stylesheet">
+        <link href="https://www.dafontfree.net/embed/YmF1aGF1cy1odi1idC1oZWF2eSZkYXRhLzQ2L2IvNjIzMjcvYmF1aGF1cyBoZWF2eSBidC50dGY" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Barlow:wght@100&family=Boogaloo&family=Chakra+Petch&family=Manrope:wght@300&display=swap" rel="stylesheet">
+       <script src="index.js">
+
+        </script>
+        <title>
+            Routine Clock
+        </title>
+          
+        <!-- add icon link -->
+        <link rel = "icon" href = 
+    "data:image/jpeg;base64,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" 
+        type = "image/x-icon">
+<body>
+    
+</head>
+<body id="abc">
+
+    <div class="main-container">
+        <div id="grid-container1">
+            <div class="grid-item" id="clock-pic"></div>
+            <div class="grid-item" id="left-second-container">
+                <div class="left-second-container-inner">
+                    <div id="div1"></div>
+                    <div class="left-second-cont-option1">
+                        <label> Set wake up time</label>
+                        <select style="border: 1px solid #EDEDED;;" id="wakeUpTimeSelector">
+                            <option value="0"> Default </option>
+                            <option value="1"> 1 AM - 2 AM </option>
+                            <option value="2"> 2 AM - 3 AM </option>
+                            <option value="3"> 3 AM - 4 AM </option>
+                            <option value="4"> 4 AM - 5 AM </option>
+                            <option value="5"> 5 AM - 6 AM </option>
+                            <option value="6"> 6 AM - 7 AM </option>
+                            <option value="7"> 7 AM - 8 AM </option>
+                            <option value="8"> 8 AM - 9 AM </option>
+                            <option value="9"> 9 AM - 10 AM </option>
+                            <option value="10"> 10 AM - 11 AM </option>
+                            <option value="11"> 11 AM - 12 PM </option>
+                            <option value="12"> 12 PM - 1 PM </option>
+                            <option value="13"> 1 PM - 2 PM </option>
+                            <option value="14"> 2 PM - 3 PM </option>
+                            <option value="15"> 3 PM - 4 PM </option>
+                            <option value="16"> 4 PM - 5 PM </option>
+                            <option value="17"> 5 PM - 6 PM </option>
+                            <option value="18"> 6 PM - 7 PM </option>
+                            <option value="19"> 7 PM - 8 PM </option>
+                            <option value="20"> 8 PM - 9 PM </option>
+                            <option value="21"> 9 PM - 10 PM </option>
+                            <option value="22"> 10 PM - 11 AM </option>
+                            <option value="23"> 11 PM - 12 AM </option>
+                            <option value="24"> 12 AM - 1 AM </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="left-second-container-inner">
+                    <div id="div2"></div>
+                    <div class="left-second-cont-option2">
+                        <label> Set lunch time</label>
+                        <select style="border: 1px solid #EDEDED;;" id="lunchTimeSelector">
+                            <option value="0"> Default </option>
+                            <option value="1"> 1 AM - 2 AM </option>
+                            <option value="2"> 2 AM - 3 AM </option>
+                            <option value="3"> 3 AM - 4 AM </option>
+                            <option value="4"> 4 AM - 5 AM </option>
+                            <option value="5"> 5 AM - 6 AM </option>
+                            <option value="6"> 6 AM - 7 AM </option>
+                            <option value="7"> 7 AM - 8 AM </option>
+                            <option value="8"> 8 AM - 9 AM </option>
+                            <option value="9"> 9 AM - 10 AM </option>
+                            <option value="10"> 10 AM - 11 AM </option>
+                            <option value="11"> 11 AM - 12 PM </option>
+                            <option value="12"> 12 PM - 1 PM </option>
+                            <option value="13"> 1 PM - 2 PM </option>
+                            <option value="14"> 2 PM - 3 PM </option>
+                            <option value="15"> 3 PM - 4 PM </option>
+                            <option value="16"> 4 PM - 5 PM </option>
+                            <option value="17"> 5 PM - 6 PM </option>
+                            <option value="18"> 6 PM - 7 PM </option>
+                            <option value="19"> 7 PM - 8 PM </option>
+                            <option value="20"> 8 PM - 9 PM </option>
+                            <option value="21"> 9 PM - 10 PM </option>
+                            <option value="22"> 10 PM - 11 AM </option>
+                            <option value="23"> 11 PM - 12 AM </option>
+                            <option value="24"> 12 AM - 1 AM </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="vertical-line2"></div>
+                <div class="left-second-container-inner">
+                    <div id="div3"></div>
+                    <div class="left-second-cont-option3">
+                        <label> Set nap time</label>
+                        <select style="border: 1px solid #EDEDED;;" id="napTimeSelector">
+                            <option value="0"> Default </option>
+                            <option value="1"> 1 AM - 2 AM </option>
+                            <option value="2"> 2 AM - 3 AM </option>
+                            <option value="3"> 3 AM - 4 AM </option>
+                            <option value="4"> 4 AM - 5 AM </option>
+                            <option value="5"> 5 AM - 6 AM </option>
+                            <option value="6"> 6 AM - 7 AM </option>
+                            <option value="7"> 7 AM - 8 AM </option>
+                            <option value="8"> 8 AM - 9 AM </option>
+                            <option value="9"> 9 AM - 10 AM </option>
+                            <option value="10"> 10 AM - 11 AM </option>
+                            <option value="11"> 11 AM - 12 PM </option>
+                            <option value="12"> 12 PM - 1 PM </option>
+                            <option value="13"> 1 PM - 2 PM </option>
+                            <option value="14"> 2 PM - 3 PM </option>
+                            <option value="15"> 3 PM - 4 PM </option>
+                            <option value="16"> 4 PM - 5 PM </option>
+                            <option value="17"> 5 PM - 6 PM </option>
+                            <option value="18"> 6 PM - 7 PM </option>
+                            <option value="19"> 7 PM - 8 PM </option>
+                            <option value="20"> 8 PM - 9 PM </option>
+                            <option value="21"> 9 PM - 10 PM </option>
+                            <option value="22"> 10 PM - 11 AM </option>
+                            <option value="23"> 11 PM - 12 AM </option>
+                            <option value="24"> 12 AM - 1 AM </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="vertical-line2"></div>
+                <div class="left-second-container-inner">
+                    <div id="div2"></div>
+                    <div class="left-second-cont-option4">
+                        <label> Set dinner time</label>
+                        <select style="border: 1px solid #EDEDED;" id="dinnerTimeSelector">
+                            <option value="0"> Default </option>
+                            <option value="1"> 1 AM - 2 AM </option>
+                            <option value="2"> 2 AM - 3 AM </option>
+                            <option value="3"> 3 AM - 4 AM </option>
+                            <option value="4"> 4 AM - 5 AM </option>
+                            <option value="5"> 5 AM - 6 AM </option>
+                            <option value="6"> 6 AM - 7 AM </option>
+                            <option value="7"> 7 AM - 8 AM </option>
+                            <option value="8"> 8 AM - 9 AM </option>
+                            <option value="9"> 9 AM - 10 AM </option>
+                            <option value="10"> 10 AM - 11 AM </option>
+                            <option value="11"> 11 AM - 12 PM </option>
+                            <option value="12"> 12 PM - 1 PM </option>
+                            <option value="13"> 1 PM - 2 PM </option>
+                            <option value="14"> 2 PM - 3 PM </option>
+                            <option value="15"> 3 PM - 4 PM </option>
+                            <option value="16"> 4 PM - 5 PM </option>
+                            <option value="17"> 5 PM - 6 PM </option>
+                            <option value="18"> 6 PM - 7 PM </option>
+                            <option value="19"> 7 PM - 8 PM </option>
+                            <option value="20"> 8 PM - 9 PM </option>
+                            <option value="21"> 9 PM - 10 PM </option>
+                            <option value="22"> 10 PM - 11 AM </option>
+                            <option value="23"> 11 PM - 12 AM </option>
+                            <option value="24"> 12 AM - 1 AM </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="grid-item" id="set-time" onclick=settime()>Set Alarm !</button>
+        </div>
+
+        <div id="grid-container2">
+            <div class="grid-item1" id="digital-clock">
+                <div id="clock1">
+                <h2>TIME</h2>
+                </div> 
+                <div id="clock2">
+                    <p id="hours"> 00</p>
+                    <p id="hours1">hours</p>
+                    <div style='font-size:50px;' id="dot1">&#58;</div>
+                </div>
+                
+                <div id="clock3">
+                    <p id="minutes"> 00</p>
+                    <p id="hours1">mins</p>
+                    <div style='font-size:50px;' id="dot2">&#58;</div>
+                </div>
+                
+                <div id="clock4">
+                    <p id="seconds"> 00</p>
+                    <p id="hours1">secs</p>
+                </div>
+                <div id="clock5">
+                    <p id="hourss"> AM</p>
+                    
+                </div>
+
+
+
+
+               <div id="lb1"></div>
+               <div id="lb2"></div>
+
+            </div>
+            <div class="grid-item1" id="right-bottom-container">
+
+                 <div id="text-container" > 
+                    <h1 id="txt">Rule Your Day With Me !</h1>
+                    </div>
+
+                <div id="img-container"></div>
+
+        </div>
+    </div>
+
+    </div>
+
+    <div id="wakeUpTimeText">Set Your Alarm for a day !</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
